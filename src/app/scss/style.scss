@@ -9,13 +9,36 @@
     position: fixed;
     font-weight: bold;
     text-align: center;
+
     .contBuscador {
-       top: 5vh;
-        height:80vh;
-        width:25%;
-         margin:0px auto;
-        background-color:black;
+        top: 5vh;
+        height: 80vh;
+        width: 25%;
+        margin: 0px auto;
+        background-color: black;
         box-shadow: 5px 5px 5px 5px;
         border-radius: 20px;
+
+        .buscar {
+            margin-bottom: 1em;
+
+            input {
+                background-color: aliceblue;
+                outline: none;
+                border: none;
+                border-radius: 2rem;
+                padding: 1rem;
+                color: whitesmoke;
+            }
+        }
+
+        .datos {
+            .ubicacion {
+                font-size: 2rem;
+            }
+            .tempreatura {
+                font-size: 5rem;
+            }
+        }
     }
 }
